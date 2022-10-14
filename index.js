@@ -464,7 +464,7 @@ export default e => {
   
   useUse(e => {
     if (e.use && gunApp) {
-      sounds.playSound(soundFiles.combat[soundIndex]);
+      sounds.playSoundName("shotgun");
       gunApp.use();
     }
   });
